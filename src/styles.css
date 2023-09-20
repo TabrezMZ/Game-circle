@@ -1,0 +1,315 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App.css
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  color: red;
+  margin-top: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 20px auto;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.red {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.green {
+  background-color: green;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: blue;
+}
+
+p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+/* ----------- Form  Page Design --------------- */
+
+/* Global styles */
+.contain {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images6.alphacoders.com/119/1191374.jpg"); /* Replace 'your-background-image.jpg' with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* You can adjust the font family */
+  color: #fff; /* Default text color for the page */
+  height: 100vh;
+}
+
+/* Header styles */
+.header {
+  background-color: gray; /* Red background color for Squid Game header */
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* Text color for the header */
+}
+
+/* Container for the form */
+.form-container {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Semi-transparent black background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 7rem auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+/* Form title */
+.form-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form labels */
+.form-label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form inputs */
+.form-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+/* Error messages */
+.form-error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: none;
+}
+
+/* Submit button */
+.form-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+/* Style the select element */
+.form-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+/* Error messages */
+.form-error {
+  color: red;
+  font-size: 14px;
+  text-align: left;
+  display: block; /* Display the error messages */
+}
+
+/* ---------------------- Game Page Design ---------------- */
+/* Basic styling for the container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images6.alphacoders.com/118/1181154.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Header styling */
+.game-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Box styling */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.box.red {
+  background-color: red;
+  border-color: darkred;
+}
+
+.box.green {
+  background-color: green;
+  border-color: darkgreen;
+}
+
+/* Score and Time styling */
+.score,
+.time {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Game Over styling */
+.game-over {
+  font-size: 60px;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* You Won styling */
+.you-won {
+  font-size: 60px;
+  color: green;
+  background-color: gray;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+/* Start Game button styling */
+.start-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.start-button:hover {
+  background-color: white;
+  border-color: transparent;
+  color: black;
+}
+
+/* Game Guidance styling */
+.game-guidance {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+  max-width: 350px;
+  margin: 25px auto;
+  color: black;
+  background-color: pink;
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.game-guidance li {
+  margin: 5px 0;
+}
+
+/* Level Dropdown styling */
+.level-dropdown {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.level-dropdown label {
+  font-size: 18px;
+  color: white;
+}
+
+.level-dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.level-dropdown select:hover {
+  background-color: white;
+  border-color: transparent;
+  color: black;
+}
